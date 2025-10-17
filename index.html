@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
+    <nav class="nav">
+        <div class="nav_container">
+            <a href="#" class="nav_logo">Misitio</a>
+
+            <button class="nav_toggle" id="navToggle">
+                <span class="nav_toggle-line"></span>
+                <span class="nav_toggle-line"></span>
+                <span class="nav_toggle-line"></span>
+            </button>
+
+
+            <ul class="nav_menu" id="navMenu">
+                <li class="nav_item"><a href="#" class="nav_link">Inicio</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Servicios</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Login</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal para demostrar scroll -->
+    <main class="main-content">
+        <h1>Contenido Principal</h1>
+        <p>Este es un ejemplo de menú de navegación responsive con metodología mobile-first y BEM.</p>
+        <p>En dispositivos móviles, el menú se oculta y se muestra mediante un botón hamburguesa</p>
+        <p>En pantallas más grandes (768px o más), el menú se muestra horizontalmente.</p>
+    </main>
+    <script src="script.js"></script>
     
 </body>
 </html>
